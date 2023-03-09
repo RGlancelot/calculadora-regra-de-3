@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image:  linear-gradient( rgb(9, 23, 34),rgb(48, 24, 138), rgb(5, 24, 58));
+    width: 100vw;
+    height: 100vh;
+}
+
+.cont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    display: inline-flex;
+ }
+ .g{
+    background: linear-gradient( rgb(19, 18, 26),rgb(49, 49, 51), rgb(19, 18, 26));
+    display: flex;
+    flex-direction: column;   
+    width: 24vw;
+    height: 55vh;
+    border-radius: 8px 0px 0px 8px;
+}
+.hist{
+    background-color: rgb(62, 65, 64);
+    border-radius: 0px 8px 8px 0px ;
+    width: 7vw;
+}
+input{
+    background-color: #bfc9bd;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 4px;
+    align-self: center;
+    width: 15vw;
+ }
+ .s2{
+     display: flex;
+     flex-direction: column;
+     align-self: center;
+     margin-top: 15px ;
+ }
+ #calcular{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    margin-top: 35px;
+    width: 18vw;
+    align-self: center;
+}
+ #calcular:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+ }
+ 
+ .h{
+     align-items: center;
+     align-self: center;
+     align-content: center;
+     margin-top: 15px;
+ }
+
